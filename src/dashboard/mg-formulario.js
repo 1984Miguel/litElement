@@ -3,7 +3,6 @@ import { LitElement, html, css } from 'lit-element';
 import "../components/mg-button"
 import "../components/mg-input-text"
 
-import "../components/modal"
 
 export class MgFormulario extends LitElement {
 
@@ -63,9 +62,6 @@ export class MgFormulario extends LitElement {
     render() {
         return html` 
 
-<!-- <x-modal title="Important!" visible>
-  <p>This is some really important stuff</p>
-</x-modal> -->
         <section>
             <div class="contenedor">
                 <div class="row">
